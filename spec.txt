@@ -1,0 +1,39 @@
+SWAMY-8
+
+REGISTERS:
+- 0: General Purpose 8-bit Register.
+- 1: General Purpose 8-bit Register.
+- 2: General Purpose 8-bit Register.
+- 3: General Purpose 8-bit Register.
+
+INSTRUCTION SET:
+- ADD <REG>: Adds 1 to the <REG>
+- SUB <REG>: Subtracts 1 from the <REG>
+- ISZ <REG>: Skips a line if the value in <REG> is zero else continues normally.
+- JMP <LINENO>: Jumps to a given line number <LINENO>.
+- STP: Ends the program
+
+OPCODES:
+- ADD: 001
+- SUB: 010
+- JMP: 011
+- ISZ: 100
+- STP: 111
+
+CONTROL SIGNALS:
+-  0: ALU Output Enable
+-  1: ALU Write Enable
+-  2: Register Output Enable
+-  3: Register Input Enable
+-  4: ALU Subtract
+-  5: IsZero Check Enable
+-  6: Skip Line
+-  7: Input Line Number
+-  8: 
+-  9: 
+- 10: 
+- 11: 
+- 12: 
+- 13: 
+- 14: 
+- 15: Program Counter Enable, Also resets control unit
