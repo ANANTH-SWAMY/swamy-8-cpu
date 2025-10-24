@@ -23,13 +23,6 @@ type Instruction struct {
 }
 
 func write_binary(file *os.File) {
-	bin_file, err := os.Create("output.bin")
-	if err != nil {
-		fmt.Printf("Error: Unable to create binary file: output.bin\n")
-		return
-	}
-	defer bin_file.Close()
-
 	instructions := []Instruction{}
 
 	scanner := bufio.NewScanner(file)
@@ -104,6 +97,13 @@ func write_binary(file *os.File) {
 
 		instructions = append(instructions, instr)
 	}
+
+	bin_file, err := os.Create("output.bin")
+	if err != nil {
+		fmt.Printf("Error: Unable to create binary file: output.bin\n")
+		return
+	}
+	defer bin_file.Close()
 
 	for _, instr := range instructions {
 		binary := instr.Opcode | instr.Operand
