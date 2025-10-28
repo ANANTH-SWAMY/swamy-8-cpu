@@ -507,7 +507,7 @@
       <a name="addrWidth" val="5"/>
       <a name="appearance" val="logisim_evolution"/>
       <a name="contents">addr/data: 5 8
-81 63 e0 20 41 60
+0
 </a>
     </comp>
     <comp lib="4" loc="(7910,6710)" name="Register">
@@ -548,10 +548,10 @@
     </comp>
     <comp lib="5" loc="(6080,7530)" name="Button"/>
     <comp lib="5" loc="(6080,7550)" name="Button"/>
-    <comp lib="8" loc="(6037,7536)" name="Text">
+    <comp lib="8" loc="(6035,7535)" name="Text">
       <a name="text" val="reset"/>
     </comp>
-    <comp lib="8" loc="(6041,7557)" name="Text">
+    <comp lib="8" loc="(6040,7555)" name="Text">
       <a name="text" val="run"/>
     </comp>
     <comp lib="8" loc="(7680,7000)" name="Text">
