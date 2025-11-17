@@ -6,6 +6,8 @@ REGISTERS:
 - 2: General Purpose 8-bit Register.
 - 3: General Purpose 8-bit Register.
 
+- Can load only 32 instructions.
+
 INSTRUCTION SET:
 - ADD <REG>: Adds 1 to the <REG>
 - SUB <REG>: Subtracts 1 from the <REG>
@@ -29,11 +31,11 @@ CONTROL SIGNALS:
 -  5: IsZero Check Enable
 -  6: Skip Line
 -  7: Input Line Number
--  8: 
--  9: 
-- 10: 
-- 11: 
-- 12: 
-- 13: 
-- 14: 
+-  9: Not Used
+-  9: Not Used
+- 10: Not Used
+- 11: Not Used
+- 12: Not Used
+- 13: Not Used
+- 14: Not Used
 - 15: Program Counter Enable, Also resets control unit
