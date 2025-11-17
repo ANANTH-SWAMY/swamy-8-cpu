@@ -1,6 +1,6 @@
 # SWAMY-8
 
-SWAMY-8 is an 8-bit hobby microprocessor designed in logisim. Its a very simple barebones architecture. Its instruction set is from the [WDR Papiercomputer](https://youtu.be/Z27KQiBnkJI) and is turing complete.
+SWAMY-8 is an 8-bit hobby microprocessor designed in logisim. It has a very simple, bare-bones architecture. Its instruction set is from the [WDR Papiercomputer](https://youtu.be/Z27KQiBnkJI) and is turing complete.
 
 Specifications and the instruction set can be found in `spec.txt`.
 
