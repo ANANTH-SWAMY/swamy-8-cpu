@@ -1,0 +1,22 @@
+isz 1
+jmp 3
+stp
+sub 1
+isz 2
+jmp 7
+jmp 13
+sub 2
+add 0
+add 3
+isz 2
+jmp 7
+jmp 0
+isz 3
+jmp 16
+jmp 0
+sub 3
+add 2
+add 0
+isz 3
+jmp 16
+jmp 0
